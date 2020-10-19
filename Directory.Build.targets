@@ -8,4 +8,4 @@
     <PackageReference Update="OrchardCore.Navigation.Core" Version="1.0.0-rc2-14911" />
     <PackageReference Update="OrchardCore.ResourceManagement" Version="1.0.0-rc2-14911" />
   </ItemGroup>
-</Project>  
+</Project> 
