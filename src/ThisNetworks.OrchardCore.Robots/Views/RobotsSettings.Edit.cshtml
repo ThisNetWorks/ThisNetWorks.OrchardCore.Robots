@@ -1,0 +1,15 @@
+@model RobotsSettingsViewModel
+
+<div class="form-group">
+    <label asp-for="RobotsContent">@T["Robots.txt Content"]</label>
+    <textarea asp-for="RobotsContent" rows="20" class="form-control content-preview-text"></textarea>
+    <span class="hint">@T["For information on formatting robots.txt, visit <a href=\"http://robotstxt.org\">robotstxt.org</a>."]</span>
+</div>
+
+<div class="form-group" asp-validation-class-for="MatchBaseUrlOrServeDisallow">
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" asp-for="@Model.MatchBaseUrlOrServeDisallow" />
+        <label class="custom-control-label" asp-for="@Model.MatchBaseUrlOrServeDisallow">@T["Match BaseUrl or Serve Disallow"]</label>
+        <span class="hint">@T[" — Match the base url (see general site settings) with the incoming url, and if no match serve disallow - useful for staging sites. To test robots.txt on a staging site pass ?test as a query string"]</span>
+    </div>
+</div>
