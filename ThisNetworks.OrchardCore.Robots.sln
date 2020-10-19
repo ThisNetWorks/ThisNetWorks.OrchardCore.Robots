@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{EDB09924-BC8E-43D4-81B4-DDDC333F2CC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisNetWorks.OrchardCore.Robots.Sample.Web", "samples\ThisNetWorks.OrchardCore.Robots.Sample.Web\ThisNetWorks.OrchardCore.Robots.Sample.Web.csproj", "{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C534BA97-E40B-4CD7-A85E-CA4A4943C959}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisNetworks.OrchardCore.Robots", "src\ThisNetworks.OrchardCore.Robots\ThisNetworks.OrchardCore.Robots.csproj", "{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{FFE31D19-DAD0-42F9-A4AE-81C7C18995A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisNetWorks.OrchardCore.Robots.Sample.Web", "samples\ThisNetWorks.OrchardCore.Robots.Sample.Web\ThisNetWorks.OrchardCore.Robots.Sample.Web.csproj", "{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,18 +24,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Debug|x64.Build.0 = Debug|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Debug|x86.Build.0 = Debug|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Release|x64.ActiveCfg = Release|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Release|x64.Build.0 = Release|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Release|x86.ActiveCfg = Release|Any CPU
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432}.Release|x86.Build.0 = Release|Any CPU
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -48,9 +36,21 @@ Global
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}.Release|x64.Build.0 = Release|Any CPU
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}.Release|x86.ActiveCfg = Release|Any CPU
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}.Release|x86.Build.0 = Release|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Debug|x64.Build.0 = Debug|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Release|x64.ActiveCfg = Release|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Release|x64.Build.0 = Release|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BA0CB3B7-35FD-4820-9C10-E0D4514C0432} = {EDB09924-BC8E-43D4-81B4-DDDC333F2CC6}
 		{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59} = {C534BA97-E40B-4CD7-A85E-CA4A4943C959}
+		{D0B1AE83-B80F-4BE9-99BB-1508CEF7A117} = {FFE31D19-DAD0-42F9-A4AE-81C7C18995A6}
 	EndGlobalSection
 EndGlobal
