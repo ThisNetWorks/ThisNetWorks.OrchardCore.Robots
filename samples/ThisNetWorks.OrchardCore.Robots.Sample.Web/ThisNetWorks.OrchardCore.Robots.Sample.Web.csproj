@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TieredCompilation>true</TieredCompilation>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Localization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Logging.NLog" />
+    <PackageReference Include="OrchardCore.Application.Cms.Targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ThisNetWorks.OrchardCore.Robots\ThisNetWorks.OrchardCore.Robots.csproj" />
+  </ItemGroup>
+
+</Project>
