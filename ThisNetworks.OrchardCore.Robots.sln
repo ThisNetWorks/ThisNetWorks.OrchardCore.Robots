@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C534BA97-E40B-4CD7-A85E-CA4A4943C959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisNetworks.OrchardCore.Robots", "src\ThisNetworks.OrchardCore.Robots\ThisNetworks.OrchardCore.Robots.csproj", "{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThisNetWorks.OrchardCore.Robots", "src\ThisNetWorks.OrchardCore.Robots\ThisNetWorks.OrchardCore.Robots.csproj", "{028ED31D-B8C4-4EFD-A2FD-259C8C9A7D59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{FFE31D19-DAD0-42F9-A4AE-81C7C18995A6}"
 EndProject
