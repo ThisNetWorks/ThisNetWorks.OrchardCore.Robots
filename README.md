@@ -18,4 +18,4 @@ For version 1.0 of Orchard Core use `1.0.0`, which will use the [Orchard Core Nu
 Prerelease versions are suffixed with the CloudSmith build of Orchard Core referenced, 
 and will required a configured CloudSmith NuGet feed. Refer [Configuring a preview package source](https://docs.orchardcore.net/en/latest/docs/getting-started/preview-package-source/)
 
-e.g. `1.0.0-rc2-16253` refers to the CloudSmith Orchard Core prerelease build
+e.g. `1.1.0-preview-16439` refers to the CloudSmith Orchard Core prerelease build `v1.0.0-preview-16439`
