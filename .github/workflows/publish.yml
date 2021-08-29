@@ -26,8 +26,8 @@ jobs:
           VERSION="${VERSION/^(.*?)v}"
           echo "VERSION $VERSION"
           dotnet pack --output artifacts --configuration Release --no-restore --no-build -p:Version=$VERSION -p:TreatWarningsAsErrors=false
-      - name: Push with dotnet
-        run: dotnet nuget push artifacts/*.nupkg --api-key ${{ secrets.API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+      # - name: Push with dotnet
+      #   run: dotnet nuget push artifacts/*.nupkg --api-key ${{ secrets.API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
       - name: Archive artifacts
         uses: actions/upload-artifact@v1
         with:
