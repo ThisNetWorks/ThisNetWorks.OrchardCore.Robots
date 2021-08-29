@@ -24,7 +24,9 @@ jobs:
           arrTag=(${GITHUB_REF//\// })
           VERSION="${arrTag[2]}"
           VERSION="${VERSION//v}"
-          echo "$VERSION"
+          echo "VERSION $VERSION"
+          echo "GITHUB_REF $GITHUB_REF"
+          echo "arrTag ${arrTag}"
           dotnet pack --output artifacts --configuration Release --no-restore --no-build -p:Version=$VERSION -p:TreatWarningsAsErrors=false
 #      - name: Push with dotnet
 #        run: dotnet nuget push artifacts/*.nupkg --api-key ${{ secrets.API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
