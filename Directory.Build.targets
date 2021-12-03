@@ -1,11 +1,11 @@
 <Project>
 
   <ItemGroup>
-    <PackageReference Update="OrchardCore.Application.Cms.Targets" Version="1.2.0-preview-16576" />
-    <PackageReference Update="OrchardCore.DisplayManagement" Version="1.2.0-preview-16576" />
-    <PackageReference Update="OrchardCore.Logging.NLog" Version="1.2.0-preview-16576" />
-    <PackageReference Update="OrchardCore.Module.Targets" Version="1.2.0-preview-16576" />
-    <PackageReference Update="OrchardCore.Navigation.Core" Version="1.2.0-preview-16576" />
-    <PackageReference Update="OrchardCore.ResourceManagement" Version="1.2.0-preview-16576" />
+    <PackageReference Update="OrchardCore.Application.Cms.Targets" Version="1.2.0-preview-16607" />
+    <PackageReference Update="OrchardCore.DisplayManagement" Version="1.2.0-preview-16607" />
+    <PackageReference Update="OrchardCore.Logging.NLog" Version="1.2.0-preview-16607" />
+    <PackageReference Update="OrchardCore.Module.Targets" Version="1.2.0-preview-16607" />
+    <PackageReference Update="OrchardCore.Navigation.Core" Version="1.2.0-preview-16607" />
+    <PackageReference Update="OrchardCore.ResourceManagement" Version="1.2.0-preview-16607" />
   </ItemGroup>
 </Project> 
